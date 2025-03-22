@@ -105,3 +105,4 @@ class FilterUrl:
 
     def has_pending(self):
         return not self.queue.empty()
+
