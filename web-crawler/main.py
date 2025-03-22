@@ -36,7 +36,6 @@ async def main():
                         help="Logging level")
     
     args = parser.parse_args()
-
     
     logging.basicConfig(
         format="{asctime} - {levelname} - {message}",
