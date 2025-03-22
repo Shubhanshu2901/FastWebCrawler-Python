@@ -15,7 +15,7 @@ This **asynchronous web crawler** is built with Python using **asyncio** and **a
 
 1. Clone the repository:
 ```bash
- git clone https://github.com/Roozbeho/FastWebCrawler.git
+ git clone https://github.com/Shubhanshu2901/FastWebCrawler-Python.git
 
  cd web-crawler
 ```
