@@ -49,7 +49,7 @@ class Crawler(AsyncHTTPClientMixin):
             tasks.append(asyncio.create_task(self.fetch_urls_and_urldata(url)))
             async with self.lock:
                 self.remaining_crawls -= 1
-            logger.debug(f"Task created for {url}, remaining: {self.remaining_crawls}")
+            logger.debug(f"Task created for {url}, remaining : {self.remaining_crawls}")
 
             if len(tasks) >= self.max_connection:
                 break
